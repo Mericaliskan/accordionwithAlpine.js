@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.button-wrapper {
+    border-bottom: 1px solid #E5E7EB;
+    border-color: rgb(186, 186, 186);
+    border-radius: 2px;
+    text-align: center;
+}
+.button-text {
+    text-align: center;
+}
+.bg-gray-300{
+    background-color:rgb(186, 186, 186);
+}
+.button-wrapper:hover .button-text {
+    color: #FF6F00;
+}
+.butons{
+    width: 100%;
+}
+.max-w-xl{
+    border: 1px solid #E5E7EB;
+    border-color:rgb(186, 186, 186);
+    border-radius: 5px; 
+}

@@ -1,0 +1,53 @@
+.bg-zinc-900 {
+    background-color: #1c2228;
+  }
+
+ @media (max-width: 767px) {
+    .navbar-mobile {
+      background-color: #4c5866;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+    }
+
+    .navbar-mobile .navbar-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 1rem;
+    }
+
+    .navbar-mobile .navbar-toggle {
+      color: #fff;
+      font-size: 1.5rem;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .navbar-mobile .navbar-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #4c5866;
+    }
+
+    .navbar-mobile .navbar-menu.active {
+      display: block;
+    }
+
+    .navbar-mobile .navbar-item {
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .dropdown-right {
+      right: 0;
+      left: auto;
+    }
+  }
+  
